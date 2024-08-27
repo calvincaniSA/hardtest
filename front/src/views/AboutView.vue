@@ -1,17 +1,14 @@
 <template>
-  <div class="page" id="homePage">
+  <div class="page" id="aboutPage">
     <div class="pageWrap pp2 w60 auto">
-      <h1 class="center mb30">Level Seven Hard Test</h1>
+      <h1>About</h1>
       <v-app>
-        <v-card class="pa-4">{{ msg }}</v-card>
+        <v-card class="pa-4">This is a test for a position at Level Seven</v-card>
       </v-app>
     </div>
   </div>
 </template>
 
 <script setup>
-document.title = "Home";
-import { ref } from "vue";
-
-const msg = ref("This is the level seven hard test");
+document.title = "About";
 </script>
